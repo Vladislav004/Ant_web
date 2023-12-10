@@ -1,26 +1,41 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+* {margin: 0; padding: 0}
 
 #button {
   background: red;
-  width: 80px;
+  width: 40px;
   height: 40px;
   border-radius: 10%;
   left: 20px;
   top: 50px;
   position: absolute;
   text-align: center;
+  cursor: pointer;
 }
 
-#button:hover {
-  background: grey;
-}
+#teleservis {background: blue}
+#youservis {background: red}
+#vkservis {background: #00BFFF}
 
-#youtube {
+#headhanter {
+  text-decoration: none;
   color: #fff;
   line-height: 40px;
+}
+
+#servis li {
+  list-style: none;
+  display: inline;
+  display: block;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 2px;
+}
+
+#servis a {
+  text-decoration: none;
+  color: white;
+  padding: 2px 20px;
 }
 
 #header, #footer {
@@ -58,4 +73,10 @@
   border-bottom: 0;
   margin-bottom: 0;
   border-top: 7px solid silver;
+}
+
+#button:hover {background: grey;}
+
+#teleservis:hover, #vkservis:hover, #youservis:hover {
+  border: 5px solid black
 }
