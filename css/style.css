@@ -1,6 +1,6 @@
 * {margin: 0; padding: 0}
 
-#button {
+#headhanter {
   background: red;
   width: 40px;
   height: 40px;
@@ -13,7 +13,7 @@
 }
 
 #teleservis {background: blue}
-#youservis {background: red}
+#watservis {background: #00FF00}
 #vkservis {background: #00BFFF}
 
 #headhanter {
@@ -52,6 +52,7 @@
 
 #main {
   width: 50%;
+  min-height: 2000px;
   margin-left: 10%;
   background: #fafafa;
   border: 1px solid silver;
@@ -61,11 +62,16 @@
 
 #aside {
   width: 20%;
-  margin-left: 5%;
   background: #fafafa;
   border: 1px solid silver;
   padding: 20px 2.5%;
-  float: left;
+  position: fixed;
+  left: 1300px;
+  top: 125px;
+}
+
+#photo {
+  height: 250px;
 }
 
 #footer {
@@ -75,8 +81,8 @@
   border-top: 7px solid silver;
 }
 
-#button:hover {background: grey;}
+#headhanter:hover {background: grey;}
 
-#teleservis:hover, #vkservis:hover, #youservis:hover {
+#teleservis:hover, #vkservis:hover, #watservis:hover {
   border: 5px solid black
 }
