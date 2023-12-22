@@ -22,7 +22,7 @@
   line-height: 40px;
 }
 
-#servis li {
+#servis_li li {
   list-style: none;
   display: inline;
   display: block;
@@ -32,7 +32,7 @@
   margin-right: 2px;
 }
 
-#servis a {
+#servis_li a {
   text-decoration: none;
   color: white;
   padding: 2px 20px;
@@ -83,6 +83,6 @@
 
 #headhanter:hover {background: grey;}
 
-#teleservis:hover, #vkservis:hover, #watservis:hover {
+.servis:hover {
   border: 5px solid black
 }
